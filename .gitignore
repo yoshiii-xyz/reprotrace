@@ -1,0 +1,6 @@
+/target/
+/.reprotrace/
+/qa/evidence/
+/qa/runs/
+/fuzz/target/
+*.swp

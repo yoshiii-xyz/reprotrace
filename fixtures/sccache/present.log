@@ -1,0 +1,2 @@
+DEBUG sccache: cache hit for rustc invocation
+DEBUG sccache: cache miss for rustc invocation
