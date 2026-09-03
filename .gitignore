@@ -3,4 +3,6 @@
 /qa/evidence/
 /qa/runs/
 /fuzz/target/
+/fuzz/corpus/
+/fuzz/artifacts/
 *.swp
