@@ -1,7 +1,7 @@
 # Release
 
-The 0.1.0 MVP is not released. This document defines the dry-run and release
-evidence required before publication.
+The 0.1.0 MVP was published on 2026-09-03. This document records the release
+evidence and defines the gate for future publications.
 
 ## Dry run
 
@@ -29,7 +29,8 @@ and traced wall times. It is evidence about this fixture and host only.
 ## Version consistency
 
 Before a release, the version in `Cargo.toml`, `Cargo.lock`, the changelog,
-release documentation, and registry metadata must agree. `cargo package --locked` is inspected before any publication.
+release documentation, and registry metadata must agree. `cargo package --locked`
+is inspected before any publication.
 
 ## Publication order
 
@@ -47,8 +48,8 @@ record evidence
 ```
 
 The current workflows use immutable action commits. The release workflow
-packages and builds the tagged revision; publication remains a deliberate
-release-gate action until registry and artifact evidence is complete.
+packages and tests the tagged revision. Publication remains a deliberate
+release-gate action for future versions.
 
 ## Rollback
 
