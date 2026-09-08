@@ -4,7 +4,7 @@ Reprotrace explains observed Cargo rebuild and compiler-cache differences from l
 
 Status: published 0.1.0 MVP
 
-CI: [workflow](https://github.com/joshiii-xyz/reprotrace/actions/workflows/ci.yml)
+CI: [workflow](https://github.com/yoshiii-xyz/reprotrace/actions/workflows/ci.yml)
 
 ## Install
 
@@ -99,7 +99,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the change workflow and
 ## Release and support status
 
 Version 0.1.0 is published on [crates.io](https://crates.io/crates/reprotrace/0.1.0)
-and released on [GitHub](https://github.com/joshiii-xyz/reprotrace/releases/tag/v0.1.0).
+and released on [GitHub](https://github.com/yoshiii-xyz/reprotrace/releases/tag/v0.1.0).
 It is a Linux-first MVP and makes no production-readiness claim.
 
 ## Contributing
